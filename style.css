@@ -1,0 +1,93 @@
+/* Colors and Fonts */
+
+body{
+  background-image: url("images/White-Background-9B1.jpg");
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  color:  #313439;
+  font-size: 15px;
+  line-height: 1.6em;
+}
+
+h1, h2, h3{
+  font-family: 'Impact', sans-serif;
+}
+
+h1{
+  color: #4D394B;
+  font-size: 22px;
+}
+
+h2{
+  font-size: 18px;
+  font-weight: 300;
+}
+
+h3{
+  font-size: 16px;
+  font-weight: 300;
+}
+
+a{
+  color: #586E75;
+  font-weight: 500
+  text-decoration: none;
+}
+
+a:hover{
+  color: #84C35A;
+  text-decoration: none;
+}
+
+table{
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 1.6em;
+}
+
+
+.container{
+  width: 600px;
+  margin: 30px auto;
+}
+.card{
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+}
+.img-circle{
+  border-radius: 80%;
+}
+.text-center{
+  text-align: center;
+}
+.list-inline {
+  padding-left: 0;
+}
+.list-inline li {
+  display: inline-block;
+  padding: 0px;
+}
+.list-inline li i{
+  font-size: 25px;
+}
+/* Specific CSS rules */
+
+#img-profile{
+  width: 200px;
+  height: 200px;
+  border: 3px solid #cccccc;
+}
+#sports{
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 1.6em;
+}
+#sports img{
+  width: 300px;
+}
+#sports td{
+  padding: 10px;
+}
